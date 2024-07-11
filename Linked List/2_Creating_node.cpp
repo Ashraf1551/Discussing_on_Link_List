@@ -19,7 +19,7 @@ int main() {
 
     cout<<a.val<<endl;
     cout<<b.val<<endl;
-    cout<<(*a.next).val;//এখানে b এর value a কে dereference করে print করে দেখলাম
-    cout<<a.next->val<<endl;
+    cout<<(*a.next).val;        //এখানে b এর value a কে dereference করে print করে দেখলাম
+    cout<<a.next->val<<endl;    //অন্যভাবে deference করে b এর ভ্যালু প্রিন্ট করে দেখলাম
     return 0;
 }
